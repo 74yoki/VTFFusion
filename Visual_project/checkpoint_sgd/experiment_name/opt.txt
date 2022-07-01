@@ -1,0 +1,23 @@
+------------ Options -------------
+batchSize: 8
+checkpoint: checkpoint_sgd
+cropHeight: 112
+cropWidth: 112
+dataroot: ./ICIPDataset
+epochs: 100
+evaluate: False
+gamma: 0.9
+gpu_ids: [0]
+lr: 0.0001
+manualSeed: 5662
+model_arch: C3D_visual_only
+momentum: 0.9
+name: experiment_name
+phase: train
+resume: 
+schedule: 20
+start_epoch: 0
+use_cuda: True
+weight_decay: 0
+workers: 0
+-------------- End ----------------
